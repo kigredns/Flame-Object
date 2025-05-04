@@ -52,7 +52,7 @@ function Library:Window(title)
 
 	Container.Name = "Container"
 	Container.Parent = Top
-	Container.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+	Container.BackgroundColor3 = Color3.fromRGB(255, 81, 0)
 	Container.BackgroundTransparency = 1.000
 	Container.ClipsDescendants = true
 	Container.Position = UDim2.new(0, 0, 1, 0)
@@ -91,7 +91,7 @@ function Library:Window(title)
 	Minimize.Size = UDim2.new(0, 25, 0, 25)
 	Minimize.ZIndex = 2
 	Minimize.Image = "rbxassetid://3926307971"
-	Minimize.ImageColor3 = Color3.fromRGB(0, 255, 102)
+	Minimize.ImageColor3 = Color3.fromRGB(255, 81, 0)
 	Minimize.ImageRectOffset = Vector2.new(764, 244)
 	Minimize.ImageRectSize = Vector2.new(36, 36)
 
@@ -146,7 +146,7 @@ function Library:Window(title)
 		
 		ButtonAni.Name = "ButtonAni"
 		ButtonAni.Parent = Button
-		ButtonAni.BackgroundColor3 = Color3.fromRGB(0, 255, 102)
+		ButtonAni.BackgroundColor3 = Color3.fromRGB(255, 81, 0)
 		ButtonAni.Position = UDim2.new(0.0245098043, 0, 0.0714285746, 0)
 		
 		UICorner_2.CornerRadius = UDim.new(0, 4)
@@ -252,7 +252,7 @@ function Library:Window(title)
 		On.Size = UDim2.new(0, 25, 0, 25)
 		On.Visible = false
 		On.Image = "rbxassetid://3926305904"
-		On.ImageColor3 = Color3.fromRGB(0, 255, 102)
+		On.ImageColor3 = Color3.fromRGB(255, 81, 0)
 		On.ImageRectOffset = Vector2.new(312, 4)
 		On.ImageRectSize = Vector2.new(24, 24)
 		
