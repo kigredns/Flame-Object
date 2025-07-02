@@ -233,7 +233,7 @@ function a:Window(w)
         M.AutoButtonColor = false
         M.Font = Enum.Font.GothamSemibold
         M.Text = tostring(L) or ""
-        M.TextColor3 = Color3.fromRGB(255, 255, 255)
+        M.TextColor3 = Color3.fromRGB(240, 255, 0)
         M.TextSize = 14.000
         return M
     end
@@ -256,7 +256,7 @@ function a:Window(w)
         P.Size = UDim2.new(0, 203, 0, 36)
         P.Font = Enum.Font.Gotham
         P.Text = "  " .. tostring(L) or ""
-        P.TextColor3 = Color3.fromRGB(255, 255, 255)
+        P.TextColor3 = Color3.fromRGB(143, 255, 0)
         P.TextSize = 14.000
         P.TextXAlignment = Enum.TextXAlignment.Left
         P.MouseEnter:Connect(
@@ -313,7 +313,7 @@ function a:Window(w)
         V.Size = UDim2.new(0, 203, 0, 36)
         V.Font = Enum.Font.Gotham
         V.Text = "  " .. tostring(Q) or ""
-        V.TextColor3 = Color3.fromRGB(255, 255, 255)
+        V.TextColor3 = Color3.fromRGB(143, 255, 0)
         V.TextSize = 14.000
         V.TextXAlignment = Enum.TextXAlignment.Left
         W.Name = "ToggleStatus"
@@ -334,7 +334,7 @@ function a:Window(w)
                 b.TweenService:Create(
                     U,
                     TweenInfo.new(0.25, Enum.EasingStyle.Sine, Enum.EasingDirection.InOut),
-                    {BackgroundColor3 = Color3.fromRGB(55, 55, 55)}
+                    {BackgroundColor3 = Color3.fromRGB(2, 2, 2)}
                 ):Play()
             end
         )
@@ -343,7 +343,7 @@ function a:Window(w)
                 b.TweenService:Create(
                     U,
                     TweenInfo.new(0.25, Enum.EasingStyle.Sine, Enum.EasingDirection.InOut),
-                    {BackgroundColor3 = Color3.fromRGB(43, 43, 43)}
+                    {BackgroundColor3 = Color3.fromRGB(2, 2, 2)}
                 ):Play()
             end
         )
